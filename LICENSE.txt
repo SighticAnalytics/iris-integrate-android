@@ -1,0 +1,3 @@
+Copyright (C) 2023-2025 Sightic Analytics AB. All Rights Reserved.
+
+All information contained herein is, and remains the property of Sightic Analytics AB and its suppliers, if any. The intellectual and technical concepts contained herein are proprietary to Sightic Analytics AB and its suppliers and are protected by all applicable intellectual property laws, including trade secret and copyright laws.
