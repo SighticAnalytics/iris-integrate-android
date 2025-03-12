@@ -1,0 +1,52 @@
+$dokka.format:html-v1
+$dokka.linkExtension:html
+$dokka.location:com.sightic.irisintegrate.error////PointingToDeclaration/-i-r-i-s integrate/com.sightic.irisintegrate.error/index.html
+$dokka.location:com.sightic.irisintegrate.error/AlignmentError.AltitudeTooHigh///PointingToDeclaration/-i-r-i-s integrate/com.sightic.irisintegrate.error/-alignment-error/-altitude-too-high/index.html
+$dokka.location:com.sightic.irisintegrate.error/AlignmentError.AltitudeTooLow///PointingToDeclaration/-i-r-i-s integrate/com.sightic.irisintegrate.error/-alignment-error/-altitude-too-low/index.html
+$dokka.location:com.sightic.irisintegrate.error/AlignmentError.AzimuthTooLeft///PointingToDeclaration/-i-r-i-s integrate/com.sightic.irisintegrate.error/-alignment-error/-azimuth-too-left/index.html
+$dokka.location:com.sightic.irisintegrate.error/AlignmentError.AzimuthTooRight///PointingToDeclaration/-i-r-i-s integrate/com.sightic.irisintegrate.error/-alignment-error/-azimuth-too-right/index.html
+$dokka.location:com.sightic.irisintegrate.error/AlignmentError.EyesTooClosed///PointingToDeclaration/-i-r-i-s integrate/com.sightic.irisintegrate.error/-alignment-error/-eyes-too-closed/index.html
+$dokka.location:com.sightic.irisintegrate.error/AlignmentError.NoFaceTracked///PointingToDeclaration/-i-r-i-s integrate/com.sightic.irisintegrate.error/-alignment-error/-no-face-tracked/index.html
+$dokka.location:com.sightic.irisintegrate.error/AlignmentError.NotFollowingDot///PointingToDeclaration/-i-r-i-s integrate/com.sightic.irisintegrate.error/-alignment-error/-not-following-dot/index.html
+$dokka.location:com.sightic.irisintegrate.error/AlignmentError.PitchDown///PointingToDeclaration/-i-r-i-s integrate/com.sightic.irisintegrate.error/-alignment-error/-pitch-down/index.html
+$dokka.location:com.sightic.irisintegrate.error/AlignmentError.PitchUp///PointingToDeclaration/-i-r-i-s integrate/com.sightic.irisintegrate.error/-alignment-error/-pitch-up/index.html
+$dokka.location:com.sightic.irisintegrate.error/AlignmentError.Talking///PointingToDeclaration/-i-r-i-s integrate/com.sightic.irisintegrate.error/-alignment-error/-talking/index.html
+$dokka.location:com.sightic.irisintegrate.error/AlignmentError.TooClose///PointingToDeclaration/-i-r-i-s integrate/com.sightic.irisintegrate.error/-alignment-error/-too-close/index.html
+$dokka.location:com.sightic.irisintegrate.error/AlignmentError.TooFarAway///PointingToDeclaration/-i-r-i-s integrate/com.sightic.irisintegrate.error/-alignment-error/-too-far-away/index.html
+$dokka.location:com.sightic.irisintegrate.error/AlignmentError.YawLeft///PointingToDeclaration/-i-r-i-s integrate/com.sightic.irisintegrate.error/-alignment-error/-yaw-left/index.html
+$dokka.location:com.sightic.irisintegrate.error/AlignmentError.YawRight///PointingToDeclaration/-i-r-i-s integrate/com.sightic.irisintegrate.error/-alignment-error/-yaw-right/index.html
+$dokka.location:com.sightic.irisintegrate.error/AlignmentError///PointingToDeclaration/-i-r-i-s integrate/com.sightic.irisintegrate.error/-alignment-error/index.html
+$dokka.location:com.sightic.irisintegrate.error/CameraParameters///PointingToDeclaration/-i-r-i-s integrate/com.sightic.irisintegrate.error/-camera-parameters/index.html
+$dokka.location:com.sightic.irisintegrate.error/CameraPermissionDenied///PointingToDeclaration/-i-r-i-s integrate/com.sightic.irisintegrate.error/-camera-permission-denied/index.html
+$dokka.location:com.sightic.irisintegrate.error/Cancelled///PointingToDeclaration/-i-r-i-s integrate/com.sightic.irisintegrate.error/-cancelled/index.html
+$dokka.location:com.sightic.irisintegrate.error/DevicePerformance///PointingToDeclaration/-i-r-i-s integrate/com.sightic.irisintegrate.error/-device-performance/index.html
+$dokka.location:com.sightic.irisintegrate.error/InferenceError///PointingToDeclaration/-i-r-i-s integrate/com.sightic.irisintegrate.error/-inference-error/index.html
+$dokka.location:com.sightic.irisintegrate.error/InferenceError/InferenceError/#kotlin.String?/PointingToDeclaration/-i-r-i-s integrate/com.sightic.irisintegrate.error/-inference-error/-inference-error.html
+$dokka.location:com.sightic.irisintegrate.error/InferenceError/message/#/PointingToDeclaration/-i-r-i-s integrate/com.sightic.irisintegrate.error/-inference-error/message.html
+$dokka.location:com.sightic.irisintegrate.error/InterruptedError///PointingToDeclaration/-i-r-i-s integrate/com.sightic.irisintegrate.error/-interrupted-error/index.html
+$dokka.location:com.sightic.irisintegrate.error/NoNetworkConnection///PointingToDeclaration/-i-r-i-s integrate/com.sightic.irisintegrate.error/-no-network-connection/index.html
+$dokka.location:com.sightic.irisintegrate.error/SighticError///PointingToDeclaration/-i-r-i-s integrate/com.sightic.irisintegrate.error/-sightic-error/index.html
+$dokka.location:com.sightic.irisintegrate.error/TimedOut///PointingToDeclaration/-i-r-i-s integrate/com.sightic.irisintegrate.error/-timed-out/index.html
+$dokka.location:com.sightic.irisintegrate.error/UnexpectedError///PointingToDeclaration/-i-r-i-s integrate/com.sightic.irisintegrate.error/-unexpected-error/index.html
+$dokka.location:com.sightic.irisintegrate.error/UnexpectedError/UnexpectedError/#kotlin.String/PointingToDeclaration/-i-r-i-s integrate/com.sightic.irisintegrate.error/-unexpected-error/-unexpected-error.html
+$dokka.location:com.sightic.irisintegrate.error/UnexpectedError/reason/#/PointingToDeclaration/-i-r-i-s integrate/com.sightic.irisintegrate.error/-unexpected-error/reason.html
+$dokka.location:com.sightic.irisintegrate.error/UnsupportedDevice///PointingToDeclaration/-i-r-i-s integrate/com.sightic.irisintegrate.error/-unsupported-device/index.html
+$dokka.location:com.sightic.irisintegrate.error/UnsupportedDevice/UnsupportedDevice/#[Error type: Unresolved type for SighticSupportedDevice.Status]/PointingToDeclaration/-i-r-i-s integrate/com.sightic.irisintegrate.error/-unsupported-device/-unsupported-device.html
+$dokka.location:com.sightic.irisintegrate.error/UnsupportedDevice/status/#/PointingToDeclaration/-i-r-i-s integrate/com.sightic.irisintegrate.error/-unsupported-device/status.html
+$dokka.location:com.sightic.irisintegrate.inference////PointingToDeclaration/-i-r-i-s integrate/com.sightic.irisintegrate.inference/index.html
+$dokka.location:com.sightic.irisintegrate.inference/SighticInference///PointingToDeclaration/-i-r-i-s integrate/com.sightic.irisintegrate.inference/-sightic-inference/index.html
+$dokka.location:com.sightic.irisintegrate.inference/SighticInference/hasImpairment/#/PointingToDeclaration/-i-r-i-s integrate/com.sightic.irisintegrate.inference/-sightic-inference/has-impairment.html
+$dokka.location:com.sightic.irisintegrate////PointingToDeclaration/-i-r-i-s integrate/com.sightic.irisintegrate/index.html
+$dokka.location:com.sightic.irisintegrate//SighticView/#kotlin.Function1[com.sightic.irisintegrate.SighticResult[com.sightic.irisintegrate.SighticRecording],kotlin.Unit]/PointingToDeclaration/-i-r-i-s integrate/com.sightic.irisintegrate/-sightic-view.html
+$dokka.location:com.sightic.irisintegrate/SighticRecording///PointingToDeclaration/-i-r-i-s integrate/com.sightic.irisintegrate/-sightic-recording/index.html
+$dokka.location:com.sightic.irisintegrate/SighticRecording/performInference/#kotlin.String/PointingToDeclaration/-i-r-i-s integrate/com.sightic.irisintegrate/-sightic-recording/perform-inference.html
+$dokka.location:com.sightic.irisintegrate/SighticResult.Failure///PointingToDeclaration/-i-r-i-s integrate/com.sightic.irisintegrate/-sightic-result/-failure/index.html
+$dokka.location:com.sightic.irisintegrate/SighticResult.Failure/Failure/#com.sightic.irisintegrate.error.SighticError/PointingToDeclaration/-i-r-i-s integrate/com.sightic.irisintegrate/-sightic-result/-failure/-failure.html
+$dokka.location:com.sightic.irisintegrate/SighticResult.Failure/error/#/PointingToDeclaration/-i-r-i-s integrate/com.sightic.irisintegrate/-sightic-result/-failure/error.html
+$dokka.location:com.sightic.irisintegrate/SighticResult.Success///PointingToDeclaration/-i-r-i-s integrate/com.sightic.irisintegrate/-sightic-result/-success/index.html
+$dokka.location:com.sightic.irisintegrate/SighticResult.Success/Success/#TypeParam(bounds=[kotlin.Any?])/PointingToDeclaration/-i-r-i-s integrate/com.sightic.irisintegrate/-sightic-result/-success/-success.html
+$dokka.location:com.sightic.irisintegrate/SighticResult.Success/value/#/PointingToDeclaration/-i-r-i-s integrate/com.sightic.irisintegrate/-sightic-result/-success/value.html
+$dokka.location:com.sightic.irisintegrate/SighticResult///PointingToDeclaration/-i-r-i-s integrate/com.sightic.irisintegrate/-sightic-result/index.html
+com.sightic.irisintegrate
+com.sightic.irisintegrate.error
+com.sightic.irisintegrate.inference
