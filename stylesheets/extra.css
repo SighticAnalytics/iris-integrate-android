@@ -1,0 +1,8 @@
+/* Light mode */
+[data-md-color-scheme="default"] {
+}
+
+/* Dark mode */
+[data-md-color-scheme="slate"] {
+  --md-default-bg-color: black;
+}
