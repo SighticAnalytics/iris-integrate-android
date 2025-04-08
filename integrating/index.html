@@ -16,7 +16,7 @@
       
       
       <link rel="icon" href="../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.7">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.9">
     
     
       
@@ -24,7 +24,7 @@
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/main.8608ea7d.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.4af4bdda.min.css">
       
         
         <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
@@ -386,6 +386,15 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#device-support" class="md-nav__link">
+    <span class="md-ellipsis">
+      Device support
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#sightic-view" class="md-nav__link">
     <span class="md-ellipsis">
       Sightic view
@@ -531,6 +540,15 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#device-support" class="md-nav__link">
+    <span class="md-ellipsis">
+      Device support
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#sightic-view" class="md-nav__link">
     <span class="md-ellipsis">
       Sightic view
@@ -642,8 +660,9 @@
 </span></code></pre></div>
 </li>
 <li>
-<p>Add <a href="../api/-i-r-i-s%20integrate/com.sightic.irisintegrate/-sightic-view.html">SighticView</a> to your app. You must let it occupy the whole screen.</p>
+<p>Make sure the current device is supported using <a href="../api/-i-r-i-s%20integrate/com.sightic.irisintegrate/-sightic-supported-device/-status/">Status</a>.</p>
 </li>
+<li>Add <a href="../api/-i-r-i-s%20integrate/com.sightic.irisintegrate/-sightic-view.html">SighticView</a> to your app. You must let it occupy the whole screen.</li>
 <li>The app user aligns and then performs the scan by following the dot with their eyes.</li>
 <li>If the scan was successful a <a href="../api/-i-r-i-s%20integrate/com.sightic.irisintegrate/-sightic-recording/">SighticRecording</a> object is returned.</li>
 <li>Call the <a href="../api/-i-r-i-s%20integrate/com.sightic.irisintegrate/-sightic-recording/perform-inference.html">performInference(apiKey: String)</a> function on the recording.</li>
@@ -657,6 +676,22 @@
 <p>Add IRIS integrate as a gradle dependency.</p>
 <h2 id="camera-access">Camera access</h2>
 <p>IRIS integrate need access to the device's camera, thus you must add camera permission and feature in your manifest file. Requesting runtime permissions will be taken care of inside <a href="../api/-i-r-i-s%20integrate/com.sightic.irisintegrate/-sightic-view.html">SighticView</a></p>
+<h2 id="device-support">Device support</h2>
+<p>Make sure the current device is supported using <a href="../api/-i-r-i-s%20integrate/com.sightic.irisintegrate/-sightic-supported-device/-status/">Status</a>.</p>
+<div class="language-kotlin highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="kd">val</span><span class="w"> </span><span class="nv">status</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">SighticSupportedDevice</span><span class="p">.</span><span class="na">status</span><span class="p">(</span><span class="n">context</span><span class="p">)</span>
+</span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a><span class="k">when</span><span class="w"> </span><span class="p">(</span><span class="n">status</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-3-3"><a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a><span class="w">    </span><span class="n">SighticSupportedDevice</span><span class="p">.</span><span class="na">Status</span><span class="p">.</span><span class="na">SUPPORTED</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-3-4"><a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a><span class="w">        </span><span class="c1">// Continue with scan</span>
+</span><span id="__span-3-5"><a id="__codelineno-3-5" name="__codelineno-3-5" href="#__codelineno-3-5"></a><span class="w">    </span><span class="p">}</span>
+</span><span id="__span-3-6"><a id="__codelineno-3-6" name="__codelineno-3-6" href="#__codelineno-3-6"></a>
+</span><span id="__span-3-7"><a id="__codelineno-3-7" name="__codelineno-3-7" href="#__codelineno-3-7"></a><span class="w">    </span><span class="n">SighticSupportedDevice</span><span class="p">.</span><span class="na">Status</span><span class="p">.</span><span class="na">HARDWARE_UNSUPPORTED</span><span class="p">,</span>
+</span><span id="__span-3-8"><a id="__codelineno-3-8" name="__codelineno-3-8" href="#__codelineno-3-8"></a><span class="w">    </span><span class="n">SighticSupportedDevice</span><span class="p">.</span><span class="na">Status</span><span class="p">.</span><span class="na">LIBRARY_UNSUPPORTED</span><span class="p">,</span>
+</span><span id="__span-3-9"><a id="__codelineno-3-9" name="__codelineno-3-9" href="#__codelineno-3-9"></a><span class="w">    </span><span class="n">SighticSupportedDevice</span><span class="p">.</span><span class="na">Status</span><span class="p">.</span><span class="na">GOOGLE_PLAY_SERVICES_MISSING</span><span class="p">,</span>
+</span><span id="__span-3-10"><a id="__codelineno-3-10" name="__codelineno-3-10" href="#__codelineno-3-10"></a><span class="w">    </span><span class="n">SighticSupportedDevice</span><span class="p">.</span><span class="na">Status</span><span class="p">.</span><span class="na">GOOGLE_PLAY_SERVICES_TENSORFLOW_MISSING</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-3-11"><a id="__codelineno-3-11" name="__codelineno-3-11" href="#__codelineno-3-11"></a><span class="w">        </span><span class="c1">// Handle the case where the current phone model is not supported</span>
+</span><span id="__span-3-12"><a id="__codelineno-3-12" name="__codelineno-3-12" href="#__codelineno-3-12"></a><span class="w">    </span><span class="p">}</span>
+</span><span id="__span-3-13"><a id="__codelineno-3-13" name="__codelineno-3-13" href="#__codelineno-3-13"></a><span class="p">}</span>
+</span></code></pre></div>
 <h2 id="sightic-view">Sightic view</h2>
 <ol>
 <li>Add <a href="../api/-i-r-i-s%20integrate/com.sightic.irisintegrate/-sightic-view.html">SighticView</a>  to your app. You must let the view occupy the whole screen.</li>
@@ -691,16 +726,16 @@
 <h2 id="using-iris-integrate-with-a-lower-minsdk-than-30">Using IRIS integrate with a lower minSdk than 30</h2>
 <p>If your app has a lower minSdk than 30 you need some additional setup to get it to work</p>
 <p>Add this to you manifest file
-<div class="language-xml highlight"><span class="filename">AndroidManifest.xml</span><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="w">    </span><span class="nt">&lt;uses-sdk</span>
-</span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a><span class="w">        </span><span class="na">tools:overrideLibrary=</span><span class="s">&quot;com.sightic.irisintegrate&quot;</span>
-</span><span id="__span-3-3"><a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a><span class="w">        </span><span class="nt">/&gt;</span>
+<div class="language-xml highlight"><span class="filename">AndroidManifest.xml</span><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="w">    </span><span class="nt">&lt;uses-sdk</span>
+</span><span id="__span-4-2"><a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a><span class="w">        </span><span class="na">tools:overrideLibrary=</span><span class="s">&quot;com.sightic.irisintegrate&quot;</span>
+</span><span id="__span-4-3"><a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a><span class="w">        </span><span class="nt">/&gt;</span>
 </span></code></pre></div></p>
 <p>When you add <a href="../api/-i-r-i-s%20integrate/com.sightic.irisintegrate/-sightic-view.html">SighticView</a> you need to check if users device is running on at least minSdk 30</p>
-<div class="language-kotlin highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">Build</span><span class="p">.</span><span class="na">VERSION</span><span class="p">.</span><span class="na">SDK_INT</span><span class="w"> </span><span class="o">&gt;=</span><span class="w"> </span><span class="n">Build</span><span class="p">.</span><span class="na">VERSION_CODES</span><span class="p">.</span><span class="na">R</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
-</span><span id="__span-4-2"><a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a><span class="w">    </span><span class="n">SighticView</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="p">}</span>
-</span><span id="__span-4-3"><a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a><span class="p">}</span><span class="w"> </span><span class="k">else</span><span class="w"> </span><span class="p">{</span>
-</span><span id="__span-4-4"><a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a><span class="w">    </span><span class="c1">// Do something else</span>
-</span><span id="__span-4-5"><a id="__codelineno-4-5" name="__codelineno-4-5" href="#__codelineno-4-5"></a><span class="p">}</span>
+<div class="language-kotlin highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">Build</span><span class="p">.</span><span class="na">VERSION</span><span class="p">.</span><span class="na">SDK_INT</span><span class="w"> </span><span class="o">&gt;=</span><span class="w"> </span><span class="n">Build</span><span class="p">.</span><span class="na">VERSION_CODES</span><span class="p">.</span><span class="na">R</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-5-2"><a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a><span class="w">    </span><span class="n">SighticView</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="p">}</span>
+</span><span id="__span-5-3"><a id="__codelineno-5-3" name="__codelineno-5-3" href="#__codelineno-5-3"></a><span class="p">}</span><span class="w"> </span><span class="k">else</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-5-4"><a id="__codelineno-5-4" name="__codelineno-5-4" href="#__codelineno-5-4"></a><span class="w">    </span><span class="c1">// Do something else</span>
+</span><span id="__span-5-5"><a id="__codelineno-5-5" name="__codelineno-5-5" href="#__codelineno-5-5"></a><span class="p">}</span>
 </span></code></pre></div>
 
 
