@@ -1,1 +1,1 @@
-sourceset_dependencies='{":integrate/public":[]}'
+sourceset_dependencies='{":sdk/public":[]}'

@@ -1,0 +1,63 @@
+$dokka.format:html-v1
+$dokka.linkExtension:html
+$dokka.location:com.sightic.eyescansolosdk.error////PointingToDeclaration/eyescansolosdk/com.sightic.eyescansolosdk.error/index.html
+$dokka.location:com.sightic.eyescansolosdk.error/AlignmentError.AltitudeTooHigh///PointingToDeclaration/eyescansolosdk/com.sightic.eyescansolosdk.error/-alignment-error/-altitude-too-high/index.html
+$dokka.location:com.sightic.eyescansolosdk.error/AlignmentError.AltitudeTooLow///PointingToDeclaration/eyescansolosdk/com.sightic.eyescansolosdk.error/-alignment-error/-altitude-too-low/index.html
+$dokka.location:com.sightic.eyescansolosdk.error/AlignmentError.AzimuthTooLeft///PointingToDeclaration/eyescansolosdk/com.sightic.eyescansolosdk.error/-alignment-error/-azimuth-too-left/index.html
+$dokka.location:com.sightic.eyescansolosdk.error/AlignmentError.AzimuthTooRight///PointingToDeclaration/eyescansolosdk/com.sightic.eyescansolosdk.error/-alignment-error/-azimuth-too-right/index.html
+$dokka.location:com.sightic.eyescansolosdk.error/AlignmentError.EyesTooClosed///PointingToDeclaration/eyescansolosdk/com.sightic.eyescansolosdk.error/-alignment-error/-eyes-too-closed/index.html
+$dokka.location:com.sightic.eyescansolosdk.error/AlignmentError.NoFaceTracked///PointingToDeclaration/eyescansolosdk/com.sightic.eyescansolosdk.error/-alignment-error/-no-face-tracked/index.html
+$dokka.location:com.sightic.eyescansolosdk.error/AlignmentError.NotFollowingDot///PointingToDeclaration/eyescansolosdk/com.sightic.eyescansolosdk.error/-alignment-error/-not-following-dot/index.html
+$dokka.location:com.sightic.eyescansolosdk.error/AlignmentError.PitchDown///PointingToDeclaration/eyescansolosdk/com.sightic.eyescansolosdk.error/-alignment-error/-pitch-down/index.html
+$dokka.location:com.sightic.eyescansolosdk.error/AlignmentError.PitchUp///PointingToDeclaration/eyescansolosdk/com.sightic.eyescansolosdk.error/-alignment-error/-pitch-up/index.html
+$dokka.location:com.sightic.eyescansolosdk.error/AlignmentError.Talking///PointingToDeclaration/eyescansolosdk/com.sightic.eyescansolosdk.error/-alignment-error/-talking/index.html
+$dokka.location:com.sightic.eyescansolosdk.error/AlignmentError.TooClose///PointingToDeclaration/eyescansolosdk/com.sightic.eyescansolosdk.error/-alignment-error/-too-close/index.html
+$dokka.location:com.sightic.eyescansolosdk.error/AlignmentError.TooFarAway///PointingToDeclaration/eyescansolosdk/com.sightic.eyescansolosdk.error/-alignment-error/-too-far-away/index.html
+$dokka.location:com.sightic.eyescansolosdk.error/AlignmentError.YawLeft///PointingToDeclaration/eyescansolosdk/com.sightic.eyescansolosdk.error/-alignment-error/-yaw-left/index.html
+$dokka.location:com.sightic.eyescansolosdk.error/AlignmentError.YawRight///PointingToDeclaration/eyescansolosdk/com.sightic.eyescansolosdk.error/-alignment-error/-yaw-right/index.html
+$dokka.location:com.sightic.eyescansolosdk.error/AlignmentError///PointingToDeclaration/eyescansolosdk/com.sightic.eyescansolosdk.error/-alignment-error/index.html
+$dokka.location:com.sightic.eyescansolosdk.error/CameraParameters///PointingToDeclaration/eyescansolosdk/com.sightic.eyescansolosdk.error/-camera-parameters/index.html
+$dokka.location:com.sightic.eyescansolosdk.error/CameraPermissionDenied///PointingToDeclaration/eyescansolosdk/com.sightic.eyescansolosdk.error/-camera-permission-denied/index.html
+$dokka.location:com.sightic.eyescansolosdk.error/Cancelled///PointingToDeclaration/eyescansolosdk/com.sightic.eyescansolosdk.error/-cancelled/index.html
+$dokka.location:com.sightic.eyescansolosdk.error/DevicePerformance///PointingToDeclaration/eyescansolosdk/com.sightic.eyescansolosdk.error/-device-performance/index.html
+$dokka.location:com.sightic.eyescansolosdk.error/InferenceError///PointingToDeclaration/eyescansolosdk/com.sightic.eyescansolosdk.error/-inference-error/index.html
+$dokka.location:com.sightic.eyescansolosdk.error/InferenceError/InferenceError/#kotlin.String?/PointingToDeclaration/eyescansolosdk/com.sightic.eyescansolosdk.error/-inference-error/-inference-error.html
+$dokka.location:com.sightic.eyescansolosdk.error/InferenceError/message/#/PointingToDeclaration/eyescansolosdk/com.sightic.eyescansolosdk.error/-inference-error/message.html
+$dokka.location:com.sightic.eyescansolosdk.error/InterruptedError///PointingToDeclaration/eyescansolosdk/com.sightic.eyescansolosdk.error/-interrupted-error/index.html
+$dokka.location:com.sightic.eyescansolosdk.error/NoNetworkConnection///PointingToDeclaration/eyescansolosdk/com.sightic.eyescansolosdk.error/-no-network-connection/index.html
+$dokka.location:com.sightic.eyescansolosdk.error/SighticError///PointingToDeclaration/eyescansolosdk/com.sightic.eyescansolosdk.error/-sightic-error/index.html
+$dokka.location:com.sightic.eyescansolosdk.error/TimedOut///PointingToDeclaration/eyescansolosdk/com.sightic.eyescansolosdk.error/-timed-out/index.html
+$dokka.location:com.sightic.eyescansolosdk.error/UnexpectedError///PointingToDeclaration/eyescansolosdk/com.sightic.eyescansolosdk.error/-unexpected-error/index.html
+$dokka.location:com.sightic.eyescansolosdk.error/UnexpectedError/UnexpectedError/#kotlin.String/PointingToDeclaration/eyescansolosdk/com.sightic.eyescansolosdk.error/-unexpected-error/-unexpected-error.html
+$dokka.location:com.sightic.eyescansolosdk.error/UnexpectedError/reason/#/PointingToDeclaration/eyescansolosdk/com.sightic.eyescansolosdk.error/-unexpected-error/reason.html
+$dokka.location:com.sightic.eyescansolosdk.error/UnsupportedDevice///PointingToDeclaration/eyescansolosdk/com.sightic.eyescansolosdk.error/-unsupported-device/index.html
+$dokka.location:com.sightic.eyescansolosdk.error/UnsupportedDevice/UnsupportedDevice/#com.sightic.eyescansolosdk.SighticSupportedDevice.Status/PointingToDeclaration/eyescansolosdk/com.sightic.eyescansolosdk.error/-unsupported-device/-unsupported-device.html
+$dokka.location:com.sightic.eyescansolosdk.error/UnsupportedDevice/status/#/PointingToDeclaration/eyescansolosdk/com.sightic.eyescansolosdk.error/-unsupported-device/status.html
+$dokka.location:com.sightic.eyescansolosdk.inference////PointingToDeclaration/eyescansolosdk/com.sightic.eyescansolosdk.inference/index.html
+$dokka.location:com.sightic.eyescansolosdk.inference/SighticInference///PointingToDeclaration/eyescansolosdk/com.sightic.eyescansolosdk.inference/-sightic-inference/index.html
+$dokka.location:com.sightic.eyescansolosdk.inference/SighticInference/hasImpairment/#/PointingToDeclaration/eyescansolosdk/com.sightic.eyescansolosdk.inference/-sightic-inference/has-impairment.html
+$dokka.location:com.sightic.eyescansolosdk////PointingToDeclaration/eyescansolosdk/com.sightic.eyescansolosdk/index.html
+$dokka.location:com.sightic.eyescansolosdk//SighticView/#kotlin.Function1[com.sightic.eyescansolosdk.SighticResult[com.sightic.eyescansolosdk.SighticRecording],kotlin.Unit]/PointingToDeclaration/eyescansolosdk/com.sightic.eyescansolosdk/-sightic-view.html
+$dokka.location:com.sightic.eyescansolosdk/SighticRecording///PointingToDeclaration/eyescansolosdk/com.sightic.eyescansolosdk/-sightic-recording/index.html
+$dokka.location:com.sightic.eyescansolosdk/SighticRecording/performInference/#kotlin.String/PointingToDeclaration/eyescansolosdk/com.sightic.eyescansolosdk/-sightic-recording/perform-inference.html
+$dokka.location:com.sightic.eyescansolosdk/SighticResult.Failure///PointingToDeclaration/eyescansolosdk/com.sightic.eyescansolosdk/-sightic-result/-failure/index.html
+$dokka.location:com.sightic.eyescansolosdk/SighticResult.Failure/Failure/#com.sightic.eyescansolosdk.error.SighticError/PointingToDeclaration/eyescansolosdk/com.sightic.eyescansolosdk/-sightic-result/-failure/-failure.html
+$dokka.location:com.sightic.eyescansolosdk/SighticResult.Failure/error/#/PointingToDeclaration/eyescansolosdk/com.sightic.eyescansolosdk/-sightic-result/-failure/error.html
+$dokka.location:com.sightic.eyescansolosdk/SighticResult.Success///PointingToDeclaration/eyescansolosdk/com.sightic.eyescansolosdk/-sightic-result/-success/index.html
+$dokka.location:com.sightic.eyescansolosdk/SighticResult.Success/Success/#TypeParam(bounds=[kotlin.Any?])/PointingToDeclaration/eyescansolosdk/com.sightic.eyescansolosdk/-sightic-result/-success/-success.html
+$dokka.location:com.sightic.eyescansolosdk/SighticResult.Success/value/#/PointingToDeclaration/eyescansolosdk/com.sightic.eyescansolosdk/-sightic-result/-success/value.html
+$dokka.location:com.sightic.eyescansolosdk/SighticResult///PointingToDeclaration/eyescansolosdk/com.sightic.eyescansolosdk/-sightic-result/index.html
+$dokka.location:com.sightic.eyescansolosdk/SighticSupportedDevice.Status.GOOGLE_PLAY_SERVICES_MISSING///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}eyescansolosdk/com.sightic.eyescansolosdk/-sightic-supported-device/-status/-g-o-o-g-l-e_-p-l-a-y_-s-e-r-v-i-c-e-s_-m-i-s-s-i-n-g/index.html
+$dokka.location:com.sightic.eyescansolosdk/SighticSupportedDevice.Status.GOOGLE_PLAY_SERVICES_TENSORFLOW_MISSING///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}eyescansolosdk/com.sightic.eyescansolosdk/-sightic-supported-device/-status/-g-o-o-g-l-e_-p-l-a-y_-s-e-r-v-i-c-e-s_-t-e-n-s-o-r-f-l-o-w_-m-i-s-s-i-n-g/index.html
+$dokka.location:com.sightic.eyescansolosdk/SighticSupportedDevice.Status.HARDWARE_UNSUPPORTED///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}eyescansolosdk/com.sightic.eyescansolosdk/-sightic-supported-device/-status/-h-a-r-d-w-a-r-e_-u-n-s-u-p-p-o-r-t-e-d/index.html
+$dokka.location:com.sightic.eyescansolosdk/SighticSupportedDevice.Status.LIBRARY_UNSUPPORTED///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}eyescansolosdk/com.sightic.eyescansolosdk/-sightic-supported-device/-status/-l-i-b-r-a-r-y_-u-n-s-u-p-p-o-r-t-e-d/index.html
+$dokka.location:com.sightic.eyescansolosdk/SighticSupportedDevice.Status.SUPPORTED///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}eyescansolosdk/com.sightic.eyescansolosdk/-sightic-supported-device/-status/-s-u-p-p-o-r-t-e-d/index.html
+$dokka.location:com.sightic.eyescansolosdk/SighticSupportedDevice.Status///PointingToDeclaration/eyescansolosdk/com.sightic.eyescansolosdk/-sightic-supported-device/-status/index.html
+$dokka.location:com.sightic.eyescansolosdk/SighticSupportedDevice.Status/entries/#/PointingToDeclaration/eyescansolosdk/com.sightic.eyescansolosdk/-sightic-supported-device/-status/entries.html
+$dokka.location:com.sightic.eyescansolosdk/SighticSupportedDevice.Status/valueOf/#kotlin.String/PointingToDeclaration/eyescansolosdk/com.sightic.eyescansolosdk/-sightic-supported-device/-status/value-of.html
+$dokka.location:com.sightic.eyescansolosdk/SighticSupportedDevice.Status/values/#/PointingToDeclaration/eyescansolosdk/com.sightic.eyescansolosdk/-sightic-supported-device/-status/values.html
+$dokka.location:com.sightic.eyescansolosdk/SighticSupportedDevice///PointingToDeclaration/eyescansolosdk/com.sightic.eyescansolosdk/-sightic-supported-device/index.html
+$dokka.location:com.sightic.eyescansolosdk/SighticSupportedDevice/status/#android.content.Context/PointingToDeclaration/eyescansolosdk/com.sightic.eyescansolosdk/-sightic-supported-device/status.html
+com.sightic.eyescansolosdk
+com.sightic.eyescansolosdk.error
+com.sightic.eyescansolosdk.inference
