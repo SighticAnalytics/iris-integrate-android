@@ -1,26 +1,26 @@
-# IRIS integrate Android library 
+# EyeScan Solo SDK for Android
 
-The IRIS integrate Android library predicts if a person may be impaired due to substance use.
+EyeScan Solo SDK predicts if a person may be impaired due to substance use.
 
 ## Documentation
 
-Documentation is [available here](https://sighticanalytics.github.io/iris-integrate-android/).
+Documentation is [available here](https://sighticanalytics.github.io/eyescan-solo-sdk-android).
 
-## Adding IRIS integrate to your project
+## Adding EyeScan Solo SDK to your project
 
-Add IRIS integrate as a dependency to your `build.gradle` file. The latest version can be found on [Maven Central](https://central.sonatype.com/artifact/com.sightic/irisintegrate/overview).
+Add EyeScan Solo SDK as a dependency to your `build.gradle` file. The latest version can be found on [Maven Central](https://central.sonatype.com/artifact/com.sightic/eyescansolosdk/overview).
 
 ## Quickstart App
 
-The [IRIS integrate Quickstart App](https://github.com/SighticAnalytics/iris-integrate-quickstart-app-android) is sample project intended to show developers how to integrate the library in an Android app, and serves as a companion to the [API documentation](https://sighticanalytics.github.io/iris-integrate-android/).
+The [EyeScan Solo SDK Quickstart App](https://github.com/SighticAnalytics/eyescan-solo-sdk-quickstart-app-android) is sample project intended to show developers how to integrate the library in an Android app, and serves as a companion to the [API documentation](https://sighticanalytics.github.io/eyescan-solo-sdk-android).
 
 ## iOS version
 
-The iOS version of IRIS integrate is [available here](https://github.com/SighticAnalytics/iris-integrate-ios).
+The iOS version of EyeScan Solo SDK is [available here](https://github.com/SighticAnalytics/eyescan-solo-sdk-ios).
 
 ## Support
 
-Please get in touch with [Sightic](https://www.sightic.com/iris-integrate/) for support.
+Please get in touch with [Sightic](https://www.sightic.com/eyescansolo) for support.
 
 ## Privacy Policy
 
@@ -28,4 +28,4 @@ Refer to our [privacy policy document](https://www.sightic.com/privacy-policy) f
 
 ## License
 
-The IRIS integrate Android library is commercial software.
+EyeScan Solo SDK is commercial software.
